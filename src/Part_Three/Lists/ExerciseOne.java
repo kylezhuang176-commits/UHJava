@@ -11,7 +11,7 @@ public class ExerciseOne{
     Modify the program so that instead of the first value, the program prints
     the sum of the second and third numbers. The program is allowed to malfunction if
     there are fewer than three entries on the list, so you don't need to prepare for such
-    an event at all.
+    an event at all!
      */
     public static void main(String[] args){
         ArrayList<Integer> numbers = new ArrayList<>();
