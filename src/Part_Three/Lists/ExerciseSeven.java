@@ -18,6 +18,7 @@ public class ExerciseSeven {
         numList.add(5);
         numList.add(6);
         numList.add(9);
+        numList.add(11);
 
         System.out.println("The numbers between 4 and 9:");
         printNumbersInRange(numList, 4, 9);
