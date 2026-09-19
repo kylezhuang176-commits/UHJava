@@ -2,7 +2,7 @@ package Part_Four.Files_Data;
 
 import java.util.Scanner;
 
-public class Main {
+public class ExerciseOne {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         String userInput;
