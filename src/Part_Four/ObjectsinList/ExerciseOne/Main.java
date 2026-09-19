@@ -1,23 +1,29 @@
 package Part_Four.ObjectsinList.ExerciseOne;
 
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args){
-        ArrayList<String> items = new ArrayList<>();
+    public static void main(String[] args) {
+        ArrayList<Items> items = new ArrayList<>();
         Scanner scanner = new Scanner(System.in);
 
-        while(true){
-            System.out.print("Type a name: ");
-            String userInput = scanner.nextLine();
-            if(userInput.isEmpty()){
+        while (true) {
+            System.out.print("Name: ");
+            String name = scanner.nextLine();
+
+            if (name.isEmpty()) {
                 break;
             }
 
-            items.add(userInput);
+            Items item = new Items(name);
+            items.add(item);
+            //items.add(new Items(name));
         }
-        System.out.println(items);
 
+        for (Items item : items) {
+            System.out.println(item);
+        }
     }
 }

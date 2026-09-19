@@ -7,6 +7,6 @@ public class Items {
     }
 
     public String toString(){
-
+        return this.name;
     }
 }
